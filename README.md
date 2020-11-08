@@ -14,6 +14,7 @@ This project is for people with difficulty in discovering the border radius of a
 * HTML
 * CSS
 * JavaScript Vanilla
+* Jquery
 
 
 Made by [João Pedro Resende](https://jpres.dev)

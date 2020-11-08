@@ -8,11 +8,26 @@
 	</head>
 	<body>
 		<main>
-			<div id="div-border-radius"></div>
-			<input type="range" id="border-radius-value" min="0" max="100"/>
-			<p id="result-border-radius">Border radius value: 0px</p>
+			<h1>Border Radius Previewer</h1>
+			<div class="content">
+				<div class="results">
+					<div id="div-border-radius"></div>
+					<p id="result-border-radius">Border radius value: 0px</p>
+				</div>
+				<div class="ranges">
+					<label for="border-radius-value-left">Border left</label>
+					<input type="range" id="border-radius-value-left" min="0" max="100"/>
+					<label for="border-radius-value-right">Border right</label>
+					<input type="range" id="border-radius-value-right" min="0" max="100"/>
+					<label for="">Border right down</label>
+					<input type="range" id="border-radius-value-right-down" min="0" max="100"/>
+					<label for="border-radius-value-left-down">Border left down</label>
+					<input type="range" id="border-radius-value-left-down" min="0" max="100"/>
+				</div>
+			</div>
 			<p>Feito por <a href="https://jpres.dev">João Pedro Resende</a>!</p>
 		</main>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="index.js"></script>
 	</body>
 </html>

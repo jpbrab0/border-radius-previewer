@@ -3,13 +3,27 @@ main{
 	padding:18px 0;
 	margin:122px auto;
 	display:flex;
-	justify-content:center;
 	align-items:center;
 	flex-direction:column;
 	border:0.7px solid grey;
 	border-radius:20px;
 }
-
+main .content{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-direction: row-reverse;
+}
+main div.ranges{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+main div.results{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
 div#div-border-radius{
 	background-color:#00BFFF;
 	width:110px;

@@ -29,3 +29,12 @@ div#div-border-radius{
 	width:110px;
 	height:110px;
 }
+main .content .results input#input-value-border-radius{
+	font-size: 0;
+	border: none;
+	font-family: sans-serif;
+	background-color: transparent;
+}
+main .content .results button{
+	margin-top: 13px;
+}

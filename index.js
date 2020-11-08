@@ -17,3 +17,10 @@ function copyCss(){
 	alert("Code now is in your copypaste!")
 }
 $("#copy-code").click(copyCss)
+
+function resetValues(){
+	$("#border-radius-value-left, #border-radius-value-right, #border-radius-value-right-down, #border-radius-value-left-down").val(0)
+	$("#div-border-radius").css('border-radius', `0`)
+	$("#input-value-border-radius").val(`border-radius:0% 0% 0% 0%`)
+}
+$("#reset-button").click(resetValues)
